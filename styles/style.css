@@ -1,0 +1,101 @@
+.post{
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#criar{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.comentar{
+    margin-top: 10%;
+}
+
+.escreverComentario{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#criarPost{
+    margin-left: 8.33%;
+    width:83.33%;
+    margin-top: 5%;
+}
+
+#criarPost input{
+    margin-bottom: 2%;
+}
+
+#criarPost button{
+    margin-left: 33.33%;
+    width: 25vw;
+}
+
+.card-title img{
+    float:right;
+}
+
+.userForm{
+    width: 83.33%;
+    margin-left: 8.33%;
+    margin-top: 5%;
+}
+
+.redirect{
+    align-self: center;
+}
+
+@media only screen and (max-width:767px){
+    .enviarComentario{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    #mainContent{
+        width: 75%;
+        margin-left: 12.25%;
+    }
+
+    #criar{
+        width: 33.33%;
+        margin-left: 33.33%;
+        height: 6.5%;
+        margin-bottom: 3%;
+        font-size: 22px;
+    }
+
+    .comentar{
+        margin-top: 3%;
+    }
+
+    .escreverComentario{
+        width: 90%;
+        height: 2vw;
+    }  
+
+    #criarPost input{
+        margin-bottom: 1%;
+        height: 2.5vw;
+        font-size: 24px;
+    }
+
+    #criarPost button{
+        margin-left: 33.33%;
+        width: 25vw;
+        height: 2.5vw;
+        font-size: 24px;
+        padding: 0;
+    }
+    
+    .userForm{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 2%;
+    }
+
+}
